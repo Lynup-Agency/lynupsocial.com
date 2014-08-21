@@ -1,0 +1,11 @@
+# -------------------- system generated files
+.DS_Store
+Thumbs.db
+
+# -------------------- SASS Files
+.sass-cache
+
+# -------------------- Files to Ignore
+*.ignore
+node_modules/
+npm/
