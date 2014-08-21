@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<title>Lynup | Player Rewards</title>
+	<meta name="description" content="Player Rewards Card">
+	<meta name="author" content="Lynup">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="http://www.lynup.com/favicon.ico">
+  </head>
+  
+  <body>
+  <div id="wraper">
+  
+      <div id="header">
+      	<div id="levi"></div>
+          <h1>Scratch. <span class="plavi">Win.</span> Play</h1>
+      	<div id="desni"></div>
+      </div>
+      
+    <!--Container-->
+      <div id="container">
+      	<div id="text-field">
+        If you haven’t already scratched your card to reveal your bonus amount, do so now to determine the total sum that you have won today. Then, log in, or easily create a new account and start playing with this free offer.
+        </div>
+        <div id="line"></div>
+        <div id="coin"></div>
+
+
+      	<div id="text-field">
+        	<div id="crown"><a href="#">[Create an Account to Redeem Your Coupon]</a></div>
+        	<div id="crown"><a href="#">[Log into Your Existing Account to Redeem]</a></div>
+        </div>
+        
+        <div id="text-field2">
+          <span class="bold">Redeeming is easy: <br>
+          Players Rewards Card holders:</span><br>
+          <br>
+            1) Log-in to your existing account<br>
+            2)
+            Click the &quot;REDEEM BONUS&quot; button<br>
+            3) Enter your one-time redeemption code and see your balance instantly updated.
+        	<p>
+          <span class="bold">Don't have a Players Rewards Card? </span><br>
+          <br>
+          	1) Sign-up for a free Players Reward Card account<br>
+			2) Once you're logged in to your account, click the "REDEEM BONUS" button<br>
+			3) Enter your one-time redemption code and see your balance instantly updated.
+          <p><a href="#" class="small">Players Rewards Card Terms and Conditions</a>                        
+        </div>
+        
+      	<div id="left-bottom">
+        </div>  
+      </div>
+    <!--Container End-->
+      
+  </div><!--Wraper end-->
+</body>
+</html>
