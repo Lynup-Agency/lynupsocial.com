@@ -20,7 +20,7 @@ $(function ($) {
     //BG SLIDESHOW WITH ZOOM EFFECT
     $.mbBgndGallery.buildGallery({
                 containment:"body",
-                timer:3000,
+                timer:5000,
                 effTimer:1500,
                 controls:false, //updated in v1.1
                 grayScale:false,
@@ -33,13 +33,12 @@ $(function ($) {
                 // If your server allow directory listing you can use:
                 // (however this doesn't work locally on your computer)
 
-                //folderPath:"testImage/",
-
                 // else:
 
                  images:[
-                 "images/LynupImages/background/lynupSocialBackground.png",
-                 "images/LynupImages/background/lynupSocialBackground.png",
+                 "images/bg/01.jpg",
+                 "images/bg/02.jpg",
+                 "images/bg/03.jpg"
                  ],
 
                 onStart:function(){},
