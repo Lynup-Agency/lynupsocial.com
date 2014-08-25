@@ -36,9 +36,10 @@ $(function ($) {
                 // else:
 
                  images:[
-                 "images/bg/01.jpg",
-                 "images/bg/02.jpg",
-                 "images/bg/03.jpg"
+                 "images/bg/lynup-masthead01.jpg",
+                 "images/bg/lynup-masthead02.jpg",
+                 "images/bg/lynup-masthead03.jpg",
+                 "images/bg/lynup-masthead04.jpg"
                  ],
 
                 onStart:function(){},
