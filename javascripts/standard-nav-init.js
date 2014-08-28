@@ -33,9 +33,11 @@ $(function ($) {
     //Waypoint Interaction
     $('#intro h1').waypoint(function(direction) {
       $('.standard-nav li > a').removeClass('sub');
+      $('.lynup-nav').addClass('lynup-nav-sub');
     });
     $('#about').waypoint(function(direction) {
       $('.standard-nav li > a').addClass('sub');
+      $('.lynup-nav').addClass('lynup-nav-sub');
     });
    
 });

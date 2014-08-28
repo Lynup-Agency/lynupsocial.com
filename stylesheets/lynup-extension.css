@@ -1,0 +1,50 @@
+/* LYNUP Custom CSS Extensions */
+/* extended by Justin Kipker - Dev @ Lynup */
+/* ------------------------------------------- */
+
+nav{
+	display: none;
+}
+
+.lynup-nav{
+	border-bottom: 1px black solid;
+	text-align:center;
+	width: 103%;
+    margin-left: -16px;
+}
+
+.lynup-nav ul{
+	margin-bottom: 8px;
+}
+
+.lynup-nav ul li{
+	list-style-type: none;
+	display:  inline-block;
+	margin: 0 -2px;
+}
+
+.lynup-nav ul li a{
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.lynup-nav ul li a:hover{
+	background-color: #ee3124;
+}
+
+.logo{ float: right; }
+
+.logo li{ margin-right: 5px; }
+
+.logo li img{ height: 30px; }
+
+.lynup-nav-sub ul li a{
+	padding: 10px 25px;
+	color: #000000;
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.lynup-nav-sub ul li a:hover{ color: #fff; }
