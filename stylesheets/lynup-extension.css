@@ -2,9 +2,8 @@
 /* extended by Justin Kipker - Dev @ Lynup */
 /* ------------------------------------------- */
 
-nav{
-	display: none;
-}
+/* remove original navigatio */
+nav{ display: none; }
 
 .lynup-nav{
 	border-bottom: 1px black solid;
@@ -36,9 +35,12 @@ nav{
 
 .logo{ float: right; }
 
-.logo li{ margin-right: 5px; }
+.logo li{ 
+	margin-right: 5px; 
+	font-size: 18px;
+}
 
-.logo li img{ height: 30px; }
+.logo li img{ height: 20px; }
 
 .lynup-nav-sub ul li a{
 	padding: 10px 25px;
@@ -48,3 +50,19 @@ nav{
 }
 
 .lynup-nav-sub ul li a:hover{ color: #fff; }
+
+.logo-emblem{
+	width: 225px;
+}
+
+.logo-emblem img{
+	width: 200px;
+}
+
+.container, .service-details{
+	width: 900px;
+}
+
+.team-info{
+	height: 260px;
+}

@@ -71,7 +71,7 @@ $(function ($) {
     $('#intro h1').waypoint(function() {
       $('#masthead').removeClass('sub');
       $('.logo').removeClass('sub');
-      $('.lynup-nav').addClass('lynup-nav-sub');
+      $('.lynup-nav').removeClass('lynup-nav-sub');
     });
     $('#about').waypoint(function() {
       $('#masthead').addClass('sub');
