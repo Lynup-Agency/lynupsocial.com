@@ -394,6 +394,7 @@ p{
 }
 .services-icon-wrap{
 	margin-top: 10px;
+	cursor: pointer;
 }
 
 .services-icon-wrap > .service-icon{
