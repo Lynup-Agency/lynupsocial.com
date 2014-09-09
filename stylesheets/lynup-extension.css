@@ -222,3 +222,8 @@ nav{ display: none; }
 p.big {
 	margin-top: 55px;
 }
+
+
+.top-banner-caption-v1 h1{
+	font-size: 92px !important;
+}
