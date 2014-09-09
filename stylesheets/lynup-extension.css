@@ -87,7 +87,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/branding.jpg');
+	/*background-image: url('../images/categories/branding.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -103,7 +104,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/inbound.jpg');
+	/*background-image: url('../images/categories/inbound.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -119,7 +121,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/social-media.jpg');
+	/*background-image: url('../images/categories/social-media.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -135,7 +138,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/social-seo.jpg');
+	/*background-image: url('../images/categories/social-seo.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -151,7 +155,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/website-design.jpg');
+	/*background-image: url('../images/categories/website-design.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -167,7 +172,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/graphic-design.jpg');
+	/*background-image: url('../images/categories/graphic-design.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -183,7 +189,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/photography.jpg');
+	/*background-image: url('../images/categories/photography.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
@@ -199,7 +206,8 @@ nav{ display: none; }
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	background-image: url('../images/categories/videography.jpg');
+	/*background-image: url('../images/categories/videography.jpg');*/
+	background-image: url('../images/bg1.jpg');
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
