@@ -37,8 +37,9 @@ nav{ display: none; }
 
 .logo li{ 
 	margin-right: 5px; 
-	font-size: 18px;
+	font-size: 22px;
 }
+
 
 .logo li img{ height: 20px; }
 
@@ -52,11 +53,10 @@ nav{ display: none; }
 .lynup-nav-sub ul li a:hover{ color: #fff; }
 
 .logo-emblem{
-	width: 225px;
+	width: 235px;
 }
-
 .logo-emblem img{
-	width: 200px;
+	width: 235px;
 }
 
 .container, .service-details{
@@ -65,4 +65,152 @@ nav{ display: none; }
 
 .team-info{
 	height: 260px;
+}
+.marketing {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/bg1.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.branding {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/branding.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.inbound {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/inbound.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.social-media {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/social-media.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.social-seo {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/social-seo.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.website-design {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/website-design.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.graphic-design {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/graphic-design.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.photography {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/photography.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+.videography {
+	height: auto;
+    display: block;
+    width: 100%;
+	border: 1px solid #707070;
+	background-image: url('../images/categories/videography.jpg');
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	font-family: "NexaLight";
+}
+
+p.big {
+	margin-top: 185px;
 }
