@@ -768,6 +768,7 @@ div#portfolio_thumbs ul li div.item_info {
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
+    overflow: hidden;
 }
 
 div#portfolio_thumbs ul li div.item_info h3 {
