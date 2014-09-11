@@ -1156,14 +1156,15 @@ fieldset h1 {
 	margin-bottom: 0;
 }
 .footer-top .maptext{
-	width: 20%;
-	float: right;
+	width: 45%;
 	margin-top: 0px;
 	font-size: 11px;
+	margin-left: 215px;
+	margin-top: 35px;
 }
 .footer-top .certifiedstamp{
 	width:15%;
-	float: left;
+	float: right;
 	margin-right: 19%;
 }
 .footer-top .gazelletext{
@@ -1173,10 +1174,14 @@ fieldset h1 {
 }
 .footer-top .gazelle{
 	float: left;
-	margin: 25px 6% 0 2%;
+	margin-left: -100px;
+	
 }
 .footer-top .mapimage{
-	margin-left: 12%;
+	width: 180px;
+	float: left;
+	margin-left: 225px;
+	margin-top: -120px;
 }
 
 .footer-top .phone{
@@ -1307,7 +1312,7 @@ input.paypalbutton:hover{
 }
 
 .footerlynuplogo{
-	width: 23%;
+	width: 60%;
 	margin-bottom: 10px;
 }
 
