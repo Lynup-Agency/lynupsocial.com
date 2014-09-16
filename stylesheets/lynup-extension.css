@@ -63,8 +63,12 @@ nav{ display: none; }
 	width: 900px;
 }
 
-.team-info{
-	height: 260px;
+
+.add-top-half {
+	padding-top: 0px;
+}
+.liner-division{
+	margin-top: 25px !important;
 }
 .marketing {
 	height: auto;
@@ -82,136 +86,129 @@ nav{ display: none; }
 	background-repeat: no-repeat;
 	font-family: "NexaLight";
 }
-.branding {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/branding.jpg');*/
-	background-color: #db291d;
-	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
+
+p.big {
+	margin-top: 55px;
 }
-.inbound {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/inbound.jpg');*/
-	background-color: #db291d;
-	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
+
+
+.top-banner-caption-v1 h1{
+	font-size: 92px !important;
 }
-.social-media {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/social-media.jpg');*/
-	background-color: #db291d;
-	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
+
+/*Dusan's edits*//*Dusan's edits*/
+/*Dusan's edits*//*Dusan's edits*/
+.team-info{
+	height: 300px;
 }
-.social-seo {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/social-seo.jpg');*/
-	background-color: #db291d;
+h4 {
 	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 0px;
+	font-weight: 200;
+	line-height: 0px;
+	font-family:"OpenSansLight";
 	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
+	padding: 5px 10px;
+	padding-bottom: 25px;
+	}
+
+#masthead {
+	position: relative;
 }
-.website-design {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/website-design.jpg');*/
-	background-color: #db291d;
-	color: #fff;
+@media screen and (max-width: 640px) {
+
+.lynup-nav{
+	border-bottom: 1px black solid;
+	text-align:left;
+	width: 103%;
+    margin-left: -16px;
+}
+#masthead {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+#text_content {
+	margin: 0 auto !important;
+	width: 250px !important;
 	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
+}
+#control_buttons a {
+	margin-top: 85px;
+}
+.vertical-center {
+	padding-top: 0px !important; 
+}
+
+ul.logo {
+	margin: 15px 0 0 5px !important;
+	color: #fff;
+}
+.logo{ 
+	float: left; 
+	padding-left: 0px;
+	color: #fff;
+}
+.logo li{ 
+	margin-right: 5px; 
+	font-size: 22px;
+	color: #fff;
+}
+.team-info{
+	height: 496px;
+}
+.info h2 {
+	padding: 0px !important;
+	font-size: 16px !important;
+}
+h3 {
+	line-height: 34px !important;
+}
+h4 {
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0px;
+	font-weight: 200;
+	line-height: 0px;
+	font-family:"OpenSansLight";
 	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
+	padding: 5px 10px;
+	}
+.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 50px !important;
+		line-height: 46px !important;
+		padding-bottom: 135px !important;
+		margin-top: -20px;
+	}
+.col-md-12 {
+	margin-top: -90px;
 }
-.graphic-design {
+.add-bottom{
+	padding-bottom: 0px;
+}
+.thumb-carousel-wrap{
+	margin-top: -45px;
+}
+.liner-division-light{
+	margin-top: 15px !important;
+}
+.service-details{
+	padding-left: 45px !important;
+}
+
+.marketing {
 	height: auto;
     display: block;
     width: 100%;
 	border: 1px solid #707070;
-	/*background-image: url('../images/categories/graphic-design.jpg');*/
 	background-color: #db291d;
 	color: #fff;
 	text-align: center;
 	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
-}
-.photography {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/photography.jpg');*/
-	background-color: #db291d;
-	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	background-repeat: no-repeat;
-	font-family: "NexaLight";
-}
-.videography {
-	height: auto;
-    display: block;
-    width: 100%;
-	border: 1px solid #707070;
-	/*background-image: url('../images/categories/videography.jpg');*/
-	background-color: #db291d;
-	color: #fff;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 28px;
+	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-bottom: 20px;
@@ -219,6 +216,59 @@ nav{ display: none; }
 	font-family: "NexaLight";
 }
 
-p.big {
-	margin-top: 55px;
+.lynup-nav ul{
+	padding: 0;  
+    margin: 0 auto;  
+    width:103%;
+    list-style:none;
+    margin-top: -5px;
 }
+
+.lynup-nav ul li{
+	list-style-type: none;
+	display: block;
+	width: 103%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000000;
+	background:  #ee3224;
+}
+
+.lynup-nav ul li a{
+	color: #fff;	
+	transition: all 0.3s ease;
+}
+
+.lynup-nav ul li a:hover{
+	background:  #000000 url("../images/LynupImages/arrow.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	display: block;
+	width: 103%;
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+.col-md-14 {
+	width: 80%;
+	margin-left: -25px;
+	margin-bottom: 25px;
+	text-align: center !important;
+}
+.col-md-15 {
+	width: 80% !important;
+	margin-left: -25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+}
+.col-md-16 {
+	width: 100% !important;
+	margin-left: -25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+}
+.footer-top .mapimage{
+	margin-left: 10px !important;
+}
+}
+
+@media screen and (max-width: 960px) {

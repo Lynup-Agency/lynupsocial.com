@@ -282,7 +282,8 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-m
+	 d-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -379,6 +380,7 @@
 	}
 	#intro{
 		text-align: center !important;
+		padding-bottom: 15px;
 	}
 	.top-banner-caption-v6{
 		padding: 0 20px;
@@ -491,7 +493,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -658,7 +660,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -877,11 +879,17 @@
 	 	display: none;
 	 	visibility: hidden;
 	 }
+
+	 h3{
+	 	margin-bottom: 35px;
+	 	line-height: 56px;
+
+	 }
 	  .show-on-mobile-only{
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -905,7 +913,9 @@
 	.main-heading {
 	    font-size: 28px;
 	    line-height: 35px;
+
 	}
+
 	.services-icon-wrap{
 		padding-bottom: 50px;
 	}
@@ -985,8 +995,8 @@
 		line-height: 55px;
 	}
 	.top-banner-caption-v1 h3 > span {
-	    font-size: 32px;
-	    line-height: 38px;
+	    font-size: 22px;
+	    line-height: 8px;
 	}
 	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
 		font-size: 64px;
@@ -995,9 +1005,11 @@
 	.top-banner-caption-v2 h3{
 		font-size: 18px;
 		line-height: 28px;
+
 	}
 	.top-banner-caption-v2 h3 > span{
 		padding-bottom: 8px;
+
 	}
 	.top-banner-caption-v2 h1{
 		font-size: 48px;
@@ -1066,7 +1078,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -1294,7 +1306,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -1508,7 +1520,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
@@ -1688,7 +1700,7 @@
 	 	display: block;
 	 	visibility: visible;
 	 }
-	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-15, .col-md-16, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	 	text-align: center;
 	 }
 	.container, .service-details{
