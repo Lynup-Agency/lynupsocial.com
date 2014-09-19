@@ -116,6 +116,67 @@ h4 {
 #masthead {
 	position: relative;
 }
+
+
+@media screen and (max-width: 960px) {
+
+	.team-info{
+		height: 600px;
+	}
+
+	.team-info img{
+		width: 346px;
+	}
+
+	.logo-emblem{
+		margin-top: -100px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.top-banner-caption-v1 h1{
+	font-size: 72px !important;
+	margin-top: 25px;
+}
+.promo-heading {
+	    font-size: 24px;
+	    line-height: 40px;
+}
+.promo-text {
+	    font-size: 18px;
+	    line-height: 31px;
+	}
+#text_content{
+	width: 650px;
+	text-align: center;
+}
+.col-md-14 {
+	width: 100%;
+	margin-bottom: 25px;
+	text-align: center !important;
+}
+.col-md-15 {
+	width: 650px !important;
+	margin-left: -25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+}
+.col-md-16 {
+	width: 600px !important;
+	
+	text-align: center !important;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.footer-top .mapimage{
+	margin-bottom: 55px;
+}
+}
+
 @media screen and (max-width: 640px) {
 
 .lynup-nav{
@@ -177,12 +238,12 @@ h4 {
 	text-transform: uppercase;
 	padding: 5px 10px;
 	}
-.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
-		font-size: 50px !important;
-		line-height: 46px !important;
-		padding-bottom: 135px !important;
-		margin-top: -20px;
-	}
+.top-banner-caption-v1 h1{
+	font-size: 36px !important;
+	margin-top: 5px;
+	padding-bottom: 75px;
+	line-height: 36px;
+}
 .col-md-12 {
 	margin-top: -90px;
 }
@@ -269,20 +330,4 @@ h4 {
 .footer-top .mapimage{
 	margin-left: 10px !important;
 }
-}
-
-@media screen and (max-width: 960px) {
-
-	.team-info{
-		height: 600px;
-	}
-
-	.team-info img{
-		width: 346px;
-	}
-
-	.logo-emblem{
-		margin-top: -100px;
-	}
-
 }
