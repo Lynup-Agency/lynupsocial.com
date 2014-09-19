@@ -114,7 +114,7 @@ h4 {
 	}
 
 #masthead {
-	position: relative;
+	position: fixed;
 }
 
 
@@ -130,6 +130,9 @@ h4 {
 
 	.logo-emblem{
 		margin-top: -100px;
+	}
+	#masthead {
+	position: relative;
 	}
 
 }
@@ -175,6 +178,9 @@ h4 {
 .footer-top .mapimage{
 	margin-bottom: 55px;
 }
+#masthead {
+	position: relative;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -353,6 +359,9 @@ h4 {
 		#wufoo-q1owb3k2159tevl{
 			width: 420px;
 		}
+		#masthead {
+	position: relative;
+	}
 }
 
 
