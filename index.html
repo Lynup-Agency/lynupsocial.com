@@ -70,24 +70,24 @@
 <script type="text/javascript">
 
 /* Basic Google Analytics */
-  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  // ga('create', 'UA-54989034-1', 'auto');
-  // ga('send', 'pageview');
+	ga('create', 'UA-54989034-1', 'auto');
+	ga('send', 'pageview');
 
 /* Google Event Tracking / ga.js */
-  // var _gaq = _gaq || [];
-  // _gaq.push(['_setAccount', 'UA-54989034-1']);
-  // _gaq.push(['_trackPageview']);
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-54989034-1']);
+  _gaq.push(['_trackPageview']);
 
-  // (function() {
-  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  // })();
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
 
@@ -100,21 +100,24 @@
 	<div class="lynup-nav">
 		
 		<ul>
-			<li><a class="scroll" href="#about">About Lynup</a></li>
-			<li><a class="scroll" href="#services">What We Do</a></li>
-			<li><a class="scroll" href="#team">BrainPower</a></li>
-			<li><a class="scroll" href="#portfolio">Solutions</a></li>
-			<li><a class="scroll" href="#contact">Reach Out!</a></li>
-			<li><a class="scroll" href="#mastfoot">Socialize</a></li>
-			<li><a target="_blank" href="http://www.lynupballyhoo.com">Blog</a></li>
+			<li><a class="scroll" href="#about" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'About Lynup']);">About Lynup</a></li>
+			<li><a class="scroll" href="#services" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'What We Do']);">What We Do</a></li>
+			<li><a class="scroll" href="#team" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'BrainPower']);">BrainPower</a></li>
+			<li><a class="scroll" href="#portfolio" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'Solutions']);">Solutions</a></li>
+			<li><a class="scroll" href="#contact" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'Reach Out']);">Reach Out!</a></li>
+			<li><a class="scroll" href="#mastfoot" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'Socialize']);">Socialize</a></li>
+			<li><a target="_blank" href="http://www.lynupballyhoo.com" onClick="_gaq.push(['_trackEvent', 'Main Nav', 'Click', 'Blog']);">Blog</a></li>
 		</ul>
 	</div>
 
 	<ul class="logo">
-		<li><a href="https://www.facebook.com/lynupsocial" target="new"><img alt="Lynup Social Facebook" src="images/LynupImages/socialMedia/facebook-square-icon2.png"></a></li>
-		<li><a href="https://twitter.com/LYNUPsocial" target="new"><img alt="Lynup Social Twitter" src="images/LynupImages/socialMedia/twitter-square-icon2.png"></a></li>
-		<li><a href="http://www.linkedin.com/company/lynup" target="new"><img alt="Lynup Social Linkedin" src="images/LynupImages/socialMedia/linkedin-square-icon2.png"></a></li>
-		<li><a href="http://www.youtube.com/user/LynupSocial" target="new"><img alt="Lynup Social Youtube" src="images/LynupImages/socialMedia/youtube-square-icon2.png"></a></li>
+		<li><a href="https://www.facebook.com/lynupsocial" target="new" onClick="_gaq.push(['_trackEvent', 'Nav Social', 'Click', 'Facebook']);"><img alt="Lynup Social Facebook" src="images/LynupImages/socialMedia/facebook-square-icon2.png"></a></li>
+
+		<li><a href="https://twitter.com/LYNUPsocial" target="new" onClick="_gaq.push(['_trackEvent', 'Nav Social', 'Click', 'Twitter']);"><img alt="Lynup Social Twitter" src="images/LynupImages/socialMedia/twitter-square-icon2.png"></a></li>
+
+		<li><a href="http://www.linkedin.com/company/lynup" target="new" onClick="_gaq.push(['_trackEvent', 'Nav Social', 'Click', 'LinkedIn']);"><img alt="Lynup Social Linkedin" src="images/LynupImages/socialMedia/linkedin-square-icon2.png"></a></li>
+
+		<li><a href="http://www.youtube.com/user/LynupSocial" target="new" onClick="_gaq.push(['_trackEvent', 'Nav Social', 'Click', 'Youtube']);"><img alt="Lynup Social Youtube" src="images/LynupImages/socialMedia/youtube-square-icon2.png"></a></li>
 		<li><span>888.203.3580 </span></li>
 	</ul>
 </header>
@@ -239,19 +242,19 @@
 
 		<div class="row services-icon-wrap  services-icon-wrap-yellow">
 			<article id="service-01" class="service-icon current col-md-3 text-center animated" >
-				<a class="customLink" data-sudo-rel="1"><img alt="Lynup Creative" title="Lynup Creative" src="images/LynupImages/serviceIcons/PNG/180x180/creative.png"/></a>
+				<a class="customLink" data-sudo-rel="1" onClick="_gaq.push(['_trackEvent', 'What We Do', 'Click', 'Creative']);"><img alt="Lynup Creative" title="Lynup Creative" src="images/LynupImages/serviceIcons/PNG/180x180/creative.png"/></a>
 				<h5>Creative</h5>
 			</article>
 			<article id="service-02" class="service-icon col-md-3 text-center animated" >
-				<a class="customLink" data-sudo-rel="2"><img alt="Lynup Social Media" title="Lynup Social Media" src="images/LynupImages/serviceIcons/PNG/180x180/socialMedia.png"/></a>
+				<a class="customLink" data-sudo-rel="2" onClick="_gaq.push(['_trackEvent', 'What We Do', 'Click', 'Social Media']);"><img alt="Lynup Social Media" title="Lynup Social Media" src="images/LynupImages/serviceIcons/PNG/180x180/socialMedia.png"/></a>
 				<h5>Social Media</h5>
 			</article>
 			<article id="service-03" class="service-icon col-md-3 text-center animated">
-				<a class="customLink" data-sudo-rel="3"><img alt="Lynup SEO" title="Lynup SEO" src="images/LynupImages/serviceIcons/PNG/180x180/seo.png"/></a>
+				<a class="customLink" data-sudo-rel="3" onClick="_gaq.push(['_trackEvent', 'What We Do', 'Click', 'SEO']);"><img alt="Lynup SEO" title="Lynup SEO" src="images/LynupImages/serviceIcons/PNG/180x180/seo.png"/></a>
 				<h5>SEO</h5>
 			</article>
 			<article id="service-04" class="service-icon col-md-3 text-center animated">
-				<a class="customLink" data-sudo-rel="4"><img alt="Lynup Digital Marketing" title="Lynup Digital Marketing" src="images/LynupImages/serviceIcons/PNG/180x180/email.png"/></a>
+				<a class="customLink" data-sudo-rel="4" onClick="_gaq.push(['_trackEvent', 'What We Do', 'Click', 'Digital Marketing']);"><img alt="Lynup Digital Marketing" title="Lynup Digital Marketing" src="images/LynupImages/serviceIcons/PNG/180x180/email.png"/></a>
 				<h5>Digital Marketing</h5>
 			</article>
 		</div>
@@ -512,7 +515,7 @@
 	                  	</p>
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-digital-marketing-strategy.html" class="more_info">
+	                  <a href="projects/project-digital-marketing-strategy.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Marketing Strategy']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_marketing-strategy.jpg"/>
@@ -530,7 +533,7 @@
 	                  		<p class="big">
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-branding.html" class="more_info">
+	                  <a href="projects/project-branding.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Branding']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_branding.jpg"/>
@@ -549,7 +552,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-inbound-marketing.html" class="more_info">
+	                  <a href="projects/project-inbound-marketing.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Inbound Marketing']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_inbound-marketing.jpg"/>
@@ -569,7 +572,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-social-media-marketing.html" class="more_info">
+	                  <a href="projects/project-social-media-marketing.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Social Media']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_social-media.jpg"/>
@@ -589,7 +592,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-social-seo.html" class="more_info">
+	                  <a href="projects/project-social-seo.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Social SEO']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_social-seo.jpg"/>
@@ -611,7 +614,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-website-design-hosting.html" class="more_info">
+	                  <a href="projects/project-website-design-hosting.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Website Design']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_web-design.jpg"/>
@@ -631,7 +634,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-graphic-design.html" class="more_info">
+	                  <a href="projects/project-graphic-design.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Graphic Design']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_graphic-design.jpg"/>
@@ -648,7 +651,7 @@
 	                  		<p class="big">
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-photography.html" class="more_info">
+	                  <a href="projects/project-photography.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Photography']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_photography .jpg"/>
@@ -666,7 +669,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-videography2.html" class="more_info">
+	                  <a href="projects/project-videography2.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Videography']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_videography .jpg"/>
@@ -686,7 +689,7 @@
 
 	              	  </div>
 	                  <!-- Info -->
-	                  <a href="projects/project-copy-writing.html" class="more_info">
+	                  <a href="projects/project-copy-writing.html" class="more_info" onClick="_gaq.push(['_trackEvent', 'Solutions', 'Click', 'Copywriting']);">
 	                  <div class="item_info">
 	                       <h4 style="margin-top:-13px;"><span>Learn More</span></h4>
 	                       <img alt="Lynup Digital Marketing Strategy" title="Marketing Strategy"  src="images/LynupImages/Service800x800/img_copy-writing.jpg"/>
@@ -797,9 +800,9 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 				<a href="#contact" style="font-family:OpenSansBold; font-weight:100; font-size: 18px; line-height: 25px; color:#fff;">info@lynup.com</a>
 				<p></p>
 				<ul class="footer-social">
-					<li><a href="https://www.facebook.com/lynupsocial" target="new"><img alt="Lynup Social Facebook" title="" src="images/LynupImages/socialMedia/facebook-square-icon.png"/></a></li>
-					<li><a href="https://twitter.com/LYNUPsocial" target="new"><img alt="Lynup Social Twitter" title="" src="images/LynupImages/socialMedia/twitter-square-icon.png"/></a></li>
-					<li><a href="http://www.linkedin.com/company/lynup" target="new"><img alt="Lynup Social Linkedin" title="" src="images/LynupImages/socialMedia/linkedin-square-icon.png"/></a></li>
+					<li><a href="https://www.facebook.com/lynupsocial" target="new" onClick="_gaq.push(['_trackEvent', 'Socialize', 'Click', 'Facebook']);"><img alt="Lynup Social Facebook" title="" src="images/LynupImages/socialMedia/facebook-square-icon.png"/></a></li>
+					<li><a href="https://twitter.com/LYNUPsocial" target="new" onClick="_gaq.push(['_trackEvent', 'Socialize', 'Click', 'Twitter']);"><img alt="Lynup Social Twitter" title="" src="images/LynupImages/socialMedia/twitter-square-icon.png"/></a></li>
+					<li><a href="http://www.linkedin.com/company/lynup" target="new" onClick="_gaq.push(['_trackEvent', 'Socialize', 'Click', 'LinkedIn']);"><img alt="Lynup Social Linkedin" title="" src="images/LynupImages/socialMedia/linkedin-square-icon.png"/></a></li>
 				</ul>
 				<div class="credits">
 					<p style="color:white;"> Designed by Lynup Creative Team. Copyright &copy; 2014. <br/> All Rights Reserved. Don't steal our stuff! </p>
